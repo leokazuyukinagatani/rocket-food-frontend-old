@@ -4,6 +4,11 @@ module.exports = {
     './src/**/*.tsx',
   ],
   theme: {
+    fontSize: {
+      sm:14,
+      md: 16,
+      lg:32
+    },
     colors: {
       transparent: 'transparent',
       white: '#FFFFFF',
@@ -31,7 +36,11 @@ module.exports = {
         500: '#94000f'
       }
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: 'Roboto, sans-serif'
+      }
+    },
   },
   plugins: [],
 }
