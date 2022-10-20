@@ -38,7 +38,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: 'Roboto, sans-serif'
+        sans: 'Roboto, sans-serif',
+        popp: 'Poppins, sans-serif'
       }
     },
   },
