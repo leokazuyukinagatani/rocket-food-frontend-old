@@ -14,7 +14,7 @@ export function Heading({ size= 'md', children, asChild, className }: HeadingPro
   return(
      <Comp 
       className={clsx(
-        'text-gray-400 font-bold font-sans',{
+        'text-white font-medium font-popp',{
           'text-sm': size ==='sm',
           'text-md': size ==='md',
           'text-lg': size ==='lg',
